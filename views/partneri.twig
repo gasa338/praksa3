@@ -1,0 +1,27 @@
+<section class="nasi-partneri">
+   <div class="container">
+      <div class="row">
+
+         <div class="col-lg-5  d-flex align-items-center trigger">
+            <div class="text-box ">
+               <h2>Naši partneri</h2>
+               <p>{{data.partneri_text}}</p>
+            </div>
+
+         </div>
+
+         <div class="col-lg-6 offset-lg-1">
+            <div class="row partners-list trigger-box">
+            {% for d in data.image %}
+               <div class="col-6 col-md-4 box-spacing order-1 order-md-1 box-fade">
+                  <a href="{{d.link}}">
+                     <img src="{{d.img}}">
+                  </a>
+               </div>
+            {% endfor %}
+
+            </div>
+         </div>
+      </div>
+   </div>
+</section>

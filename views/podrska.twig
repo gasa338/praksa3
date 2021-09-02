@@ -1,0 +1,30 @@
+<section class="tehnicka-podrska">
+   <div class="container-fluid pl-0">
+      <div class="row ">
+         <div class="col-md-5 pr-0 trigger">
+            <img src="{{data.slika}}">
+         </div>
+         <div class="col-md-7 d-flex align-items-center pl-0 pr-0 ">
+            <div class="right-image" style="background: url({{data.bgimage}}); width: 100%; height: 100%; display: flex; align-items: center;">
+
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-10">
+                        <div class="text-box">
+
+                           <h2 class="trigger">{{data.naslov}}</h2>
+                           {% for d in data.texts %}
+                              <p class="trigger">{{ d.text }}</p>
+                            {% endfor %}
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+</section>

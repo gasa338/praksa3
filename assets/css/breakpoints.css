@@ -1,0 +1,536 @@
+@media (max-width: 991px) {
+	.pdf-tabs .tab-content button {
+		height: 60px;
+	}
+
+	.tehnicka-podrska .text-box {
+		margin: 50px 0;
+	}
+	.nasi-partneri .partners-list img {
+		width: 100%;
+	}
+	.nasi-proizvodi .box {
+		max-height: 160px;
+		padding: 15px;
+	}
+	.kategorija .kategorija-box {
+		max-height: 200px;
+		padding: 15px;
+	}
+
+	.o-nama .text-box {
+		padding-left: 30px;
+	}
+
+	.tab-content {
+		display: none;
+	}
+
+	.custom-option {
+		display: none;
+	}
+
+	.select-active {
+		display: block;
+	}
+
+	.main-navigation {
+		display: none;
+	}
+	/* .mob-nav {
+		display:block;
+	} */
+	.scroll-wrap {
+		top: 70vh;
+		left: 45%;
+	}
+	.rmm .sub-menu li a {
+		text-transform: none !important;
+		letter-spacing: initial !important;
+	}
+	.rmm .sub-menu li {
+		width: 95%;
+		border-bottom: 1px solid rgba(161, 149, 149, 0.3);
+	}
+
+	.mobile-header .container {
+		height: 82px;
+	}
+
+	.back-nav {
+		font-family: "Roboto-Medium";
+		font-size: 14px;
+	}
+	.back-nav::before {
+		/*font-family: 'icomoon';
+		speak: none;
+		-webkit-font-smoothing: antialiased;*/
+		content: "";
+		position: relative;
+		display: inline-block;
+		-webkit-transform: rotate(90deg);
+		transform: rotate(90deg);
+		top: 6px;
+		right: 7px;
+		float: left;
+		font-size: 10px;
+		background: url("../assets/icons/arrow1.svg");
+		width: 10px;
+		height: 6px;
+	}
+	.rmm-toggled {
+		display: block;
+	}
+	.toggled-active .rmm-toggled-button {
+		margin-top: 15px;
+	}
+	.navigation-list-1,
+	.navigation-list-2 {
+		width: 95% !important;
+		margin-top: 15px !important;
+	}
+	.rmm.style ul li > .mob-dropdown:after {
+		left: -10px;
+		transform: rotate(270deg);
+	}
+	.rmm-closed .close-navigation {
+		display: none;
+	}
+	.toggled-active span {
+		display: none;
+	}
+	.toggled-active .close-navigation {
+		display: block;
+		transform: translateY(9px) rotate(-45deg);
+	}
+
+	.toggled-active .close-navigation:last-child {
+		transform: rotate(45deg);
+	}
+
+	.rmm ul {
+		/* display: none; */
+	}
+
+	.rmm ul ul li,
+	.rmm ul ul ul li {
+		/* display: none; */
+	}
+
+	.rmm ul:first-of-type li a {
+		border-bottom: 1px solid rgba(161, 149, 149, 0.3);
+	}
+	.rmm-submenu li {
+		border-bottom: none;
+	}
+
+	.rmm-submenu li:first-child a {
+		border-bottom: none !important;
+	}
+
+	/*.rmm.style ul ul li{
+		top: -50px;
+	}
+	
+	.rmm.style ul ul ul .rmm-back{
+		top: 0px!important;
+		width: 50%!important;
+		
+	}*/
+
+	/*.rmm-subview li:nth-child(2){
+		margin-top: -45px;
+	}
+
+	.rmm-subview .rmm-subview li:nth-child(2){
+		margin-top: 0px;
+	}*/
+
+	.rmm.style ul ul ul li {
+		top: 0px;
+	}
+
+	.rmm.style ul ul .rmm-back {
+		top: -50px !important;
+		width: 50% !important;
+		/*border-bottom: none!important;*/
+	}
+
+	.mobile-header .logo-wrapper a {
+		display: none;
+	}
+
+	.owl-theme .owl-dots .owl-dot {
+		width: initial !important;
+	}
+
+	.owl-carousel .owl-item img {
+		display: inline !important;
+		width: initial !important;
+	}
+
+	header {
+		background-color: white;
+		width: 100vw;
+		position: fixed;
+		border-bottom: 0px;
+		top: 0px;
+		z-index: 55;
+	}
+
+	.top-bar {
+		display: block;
+		position: absolute;
+		top: 58vh;
+	}
+
+	.top-bar .top-bar-box {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.rmm.style ul {
+		/*display: inline-table; */
+		text-align: left;
+		position: fixed;
+		left: 15px;
+
+		background-color: white;
+		flex-direction: column;
+		width: 90%;
+	}
+	.rmm.style ul ul {
+		width: 90% !important;
+		padding-top: 0px !important;
+	}
+
+	.rmm.style ul ul,
+	.rmm.style ul ul li {
+		box-shadow: none !important;
+	}
+
+	.rmm.style ul ul ul {
+		padding-top: 0px;
+		left: 0px !important;
+	}
+
+	.rmm.style ul ul li a {
+		padding-left: 0px !important;
+	}
+
+	/*banner*/
+	.banner {
+		top: 85px;
+		height: 80vh;
+	}
+	.banner .banner-text {
+		top: 18%;
+	}
+	.banner .banner-text .heading h1 {
+		font-size: 32px;
+		line-height: 46px;
+		font-family: "Roboto-Medium";
+	}
+	.banner .banner-text p {
+		padding: 17px 36px;
+	}
+	/*o nama*/
+	.o-nama {
+		top: 85px;
+		position: relative;
+		margin-top: 70px;
+	}
+	.o-nama .text-box {
+		margin-top: 50px;
+	}
+	.o-nama .text-box h2::before {
+		top: 15%;
+	}
+
+	.o-nama .text-box h2,
+	.nasi-partneri .text-box h2,
+	.nasi-sertifikati .text-box h2,
+	.tehnicka-podrska .text-box h2,
+	.nase-reference h2,
+	.cta-section .cta-text h2 {
+		font-size: 32px;
+	}
+
+	/*nasi partneri*/
+	.nasi-partneri {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.nasi-partneri .text-box,
+	.nasi-sertifikati .text-box {
+		margin-bottom: 40px;
+	}
+	.nasi-partneri .text-box,
+	.nasi-partneri .partners-list {
+		padding-left: 20px;
+	}
+	.nasi-partneri .text-box h2::before {
+		top: 5%;
+		left: 10px;
+	}
+	/*nase reference*/
+	.nase-reference {
+		margin-top: 70px;
+		margin-bottom: 52px;
+	}
+	.nase-reference .col-6 {
+		padding-bottom: 30px;
+	}
+
+	/*nasi sertifikati*/
+	.nasi-partneri {
+		margin-bottom: 60px;
+	}
+	.nasi-sertifikati {
+		margin-bottom: 84px;
+	}
+
+	/*tehnicka podrska*/
+	.tehnicka-podrska img {
+		height: max-content;
+		object-fit: cover;
+	}
+
+	/*cta section*/
+	.cta-section {
+		background-position: 30%;
+	}
+
+	/*footer*/
+	footer .footer-nav {
+		padding-top: 32px;
+	}
+	footer .kontaktirajte-nas {
+		padding-bottom: 46px;
+		padding-top: 37px;
+	}
+
+	footer form input,
+	footer form button {
+		width: 70% !important;
+	}
+
+	/*stranica kategorija*/
+	.kategorija .box-spacing {
+		margin-bottom: 52px;
+	}
+	.kategorija .text-background img {
+		width: 100%;
+	}
+	.kategorija h2 {
+		font-size: 32px;
+		padding-top: 5px;
+	}
+	.kategorija p {
+		font-size: 16px;
+	}
+	/* .kategorija .kategorija-box img {
+		height: 100px;
+	} */
+
+	/*stranica pojedinacni proizvod*/
+
+	.proizvod {
+		margin-bottom: 100px;
+	}
+
+	.proizvod .image-box {
+		width: 100%;
+	}
+	.proizvod .info {
+		margin-top: 30px;
+	}
+	.proizvod .info h2 {
+		margin-bottom: 20px;
+
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.proizvod .info p {
+		margin-bottom: 31px;
+	}
+
+	/*stranica nasi sertifikati*/
+	.sertifikati {
+		margin-bottom: 100px;
+	}
+	.sertifikati h2 {
+		font-size: 32px;
+		margin-bottom: 63px;
+	}
+	.sertifikati .image-box {
+		margin-bottom: 30px;
+		min-height: auto;
+	}
+	.sertifikati p:last-child {
+		margin-bottom: 60px;
+	}
+
+	/*stranica nasi proizvodi*/
+	.section-info h2 {
+		font-size: 32px;
+	}
+	.nasi-proizvodi #lista-proizvoda p {
+		font-size: 16px;
+		margin-bottom: 52px;
+	}
+
+	/*stranica kontakt*/
+	.kontakt {
+		margin-bottom: 20px;
+	}
+	.kontakt .contact-box {
+		margin-bottom: 20px;
+	}
+	.contact-form {
+		margin-bottom: 50px;
+	}
+	.contact-form form input {
+		margin-bottom: 15px;
+	}
+	.contact-form form textarea {
+		margin-top: 0px;
+		margin-bottom: 15px;
+	}
+
+	.contact-order,
+	.contact-links {
+		display: flex;
+		flex-direction: column;
+	}
+	.contact-info .contact-links a:first-child {
+		padding-right: 0px;
+		padding-bottom: 5px;
+	}
+
+	.contact-location h4 {
+		margin-top: 60px;
+	}
+
+	/*stranica reference*/
+	.reference .section-info {
+		margin-bottom: 0px;
+	}
+	.reference {
+		margin-bottom: 100px;
+	}
+}
+
+@media (max-width: 768px) {
+	/*tehnicka podrska*/
+	.tehnicka-podrska img {
+		height: 100%;
+	}
+	.scroll-wrap {
+		top: 66vh;
+	}
+	.kategorija {
+		margin-bottom: 80px;
+	}
+}
+
+@media (max-width: 767px) {
+	/*cta section*/
+	.cta-section .cta-text {
+		left: 0%;
+	}
+
+	.banner .banner-text {
+		width: 80%;
+	}
+}
+
+@media (max-width: 500px) {
+	.banner .banner-text {
+		width: 100%;
+	}
+}
+
+@media (max-width: 375px) {
+	footer .copyright .col-8,
+	footer .copyright .col-4 {
+		max-width: 100%;
+		flex: 0 0 100%;
+	}
+	.nasi-sertifikati {
+		margin-bottom: 40px;
+	}
+	.kategorija .kategorija-box {
+		max-height: 160px;
+	}
+	.banner .banner-text p {
+		padding-right: 0;
+	}
+	.nasi-sertifikati .text-box p {
+		margin-bottom: 0;
+	}
+	.nase-reference button {
+		margin-top: 20px;
+	}
+	.nasi-proizvodi #lista-proizvoda p {
+		margin-bottom: 30px;
+	}
+	.nasi-proizvodi #lista-proizvoda {
+		margin-top: 60px;
+	}
+}
+
+@media (min-width: 991px) {
+	.banner,
+	.tehnicka-podrska .right-image {
+		background-size: auto 100%;
+	}
+
+	.rmm.style ul {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.navigation-list-1,
+	.navigation-list-2 {
+		display: none;
+	}
+
+	.mob-dropdown {
+		right: 20px;
+	}
+
+	.rmm.style ul ul {
+		left: -120px;
+	}
+
+	.rmm.style ul ul li > .mob-dropdown:after {
+		left: -10px;
+	}
+
+	.rmm .sub-menu li {
+		border-bottom: 1px solid rgba(161, 149, 149, 0.3);
+	}
+
+	.rmm .sub-menu li:last-child {
+		border-bottom: none;
+	}
+}
+
+@media (min-width: 1500px) {
+	.tehnicka-podrska .text-box p {
+		width: 89%;
+	}
+	.banner .banner-text p {
+		width: 90%;
+	}
+}
+
+@media (min-width: 1601px) {
+	.tehnicka-podrska .text-box p {
+		width: 78%;
+	}
+	.banner .banner-text p {
+		width: 75%;
+	}
+}

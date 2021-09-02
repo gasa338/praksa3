@@ -1,0 +1,49 @@
+<section class="nasi-sertifikati">
+   <div class="container">
+      <div class="row ">
+
+         <div class="col-lg-6 d-flex align-items-center">
+            <div class="text-box trigger">
+               <h2>{{data.naslov}}</h2>
+               <div class="row">
+                  <div class="col-md-11">
+                     <p>{{data.opis}}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="col-lg-6">
+            <div class="row d-none d-md-flex trigger">
+            {% for d in data.sertifikati %}
+               <div class="col-md-6 text-center text-md-center text-lg-left">
+                  <a
+                     href="{{d.url}}">
+                     <img class="certificate" src="{{d.img}}">
+                  </a>
+                  <p class="image-description">{{d.txt}}</p>
+
+               </div>
+            {% endfor %}
+            </div>
+         </div>
+      </div>
+      <div class="row d-block d-md-none">
+         <div class="col-md-12">
+            <div class="owl-carousel owl-theme sertifikati-carousel">
+            {% for d in data.sertifikati %}
+               <div class="item text-center">
+                  <a
+                     href="{{d.url}}">
+                     <img src="{{d.img}}">
+                  </a>
+                  <p class="image-description">{{d.txt}}</p>
+               </div>
+            {% endfor %}
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+</section>
